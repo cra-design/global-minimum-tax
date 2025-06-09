@@ -158,70 +158,77 @@
     <li>Global Minimum Tax Return</li>
     <li>GIR Notification</li>
   </ul>
-  <div class="accordion"> 
-    <!-- Accordion section 1 -->
-    <details class="acc-group">
-      <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Answer interactive questions</summary>
-      <div class="tgl-panel">
-        <div class="pl-2">
-          <p>To determine which entities must file a GIR <strong>with the CRA</strong>, use the following interactive questions.</p>
-          <p class="rpy-ff hidden mrgn-tp-sm mrgn-bttm-lg">A <a href="#full-text" class="wb-tabs-ext">text version</a> is available if needed.</p>
-          <div class="alert alert-warning mrgn-tp-md" id="norun">
-            <p>If the interactive questions do not appear, view the <a href="#full-text" class="wb-tabs-ext">text version</a>.</p>
-          </div>
-          <div class="wb-frmvld fieldflow-lg gc-font-2019 hidden rpy-ff">
-            <form>
-              <div class="wb-fieldflow" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}, &quot;unhideelm&quot;: &quot;.rpy-ff&quot;, &quot;hideelm&quot;: &quot;#norun&quot;}">
-                <div class="wb-fieldflow-header">
-                  <p class="mrgn-tp-0">Choose the options that apply to your MNE group and <strong>scroll down</strong> for more questions and results.</p>
-                  <p class="wb-fieldflow-label">Will the MNE group appoint a designated filing entity located in Canada?</p>
+  <div class="wb-tabs mrgn-tp-md">
+    <div class="tabpanels">
+      <details id="wh_gr" open>
+        <summary><span class="wb-inv">Who must file a </span>GIR</summary>
+        <div class="accordion"> 
+          <!-- Accordion section 1 -->
+          <details class="acc-group">
+            <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Answer interactive questions</summary>
+            <div class="tgl-panel">
+              <div class="pl-2">
+                <p>To determine which entities must file a GIR <strong>with the CRA</strong>, use the following interactive questions.</p>
+                <p class="rpy-ff hidden mrgn-tp-sm mrgn-bttm-lg">A <a href="#full-text" class="wb-tabs-ext">text version</a> is available if needed.</p>
+                <div class="alert alert-warning mrgn-tp-md" id="norun">
+                  <p>If the interactive questions do not appear, view the <a href="#full-text" class="wb-tabs-ext">text version</a>.</p>
                 </div>
-                <ul>
-                  <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer1&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes, the MNE group has will apoint a designated filing entity located in Canada</li>
-                  <li>No, the MNE group will not apoint designated filing entity located in Canada.
-                    <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
+                <div class="wb-frmvld fieldflow-lg gc-font-2019 hidden rpy-ff">
+                  <form>
+                    <div class="wb-fieldflow" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}, &quot;unhideelm&quot;: &quot;.rpy-ff&quot;, &quot;hideelm&quot;: &quot;#norun&quot;}">
                       <div class="wb-fieldflow-header">
-                        <p class="wb-fieldflow-label">Is the MNE group's ultimate parent entity located in Canada?</p>
+                        <p class="mrgn-tp-0">Choose the options that apply to your MNE group and <strong>scroll down</strong> for more questions and results.</p>
+                        <p class="wb-fieldflow-label">Will the MNE group appoint a designated filing entity located in Canada?</p>
                       </div>
                       <ul>
-                        <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer2&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes, the MNE group's ultimate parent entity is located in Canada</li>
-                        <li>No, the MNE group's ultimate parent entity is <strong>not</strong> located in Canada.
+                        <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer1&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes, the MNE group has will apoint a designated filing entity located in Canada</li>
+                        <li>No, the MNE group will not apoint designated filing entity located in Canada.
                           <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
                             <div class="wb-fieldflow-header">
-                              <p class="wb-fieldflow-label">Will a GIR notification be filed with CRA by a designated notification entity or by each constituent entity located in Canada?</p>
+                              <p class="wb-fieldflow-label">Is the MNE group's ultimate parent entity located in Canada?</p>
                             </div>
                             <ul>
-                              <li>Yes, a GIR notification will be filed with CRA by a designated notification entity or by each constituent entity located in Canada
+                              <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer2&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes, the MNE group's ultimate parent entity is located in Canada</li>
+                              <li>No, the MNE group's ultimate parent entity is <strong>not</strong> located in Canada.
                                 <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
                                   <div class="wb-fieldflow-header">
-                                    <p class="wb-fieldflow-label">Is there a qualifying foreign filing entity in respect of the MNE group?</p>
+                                    <p class="wb-fieldflow-label">Will a GIR notification be filed with CRA by a designated notification entity or by each constituent entity located in Canada?</p>
                                   </div>
                                   <ul>
-                                    <li>Yes, there is a qualifying foreign filing entity in respect of the MNE group
+                                    <li>Yes, a GIR notification will be filed with CRA by a designated notification entity or by each constituent entity located in Canada
                                       <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
                                         <div class="wb-fieldflow-header">
-                                          <p class="wb-fieldflow-label">Has the MNE group been notified that the CRA has not received the GIR
-                                            <mark>on exchange</mark>
-                                            ? (What does this mean?)</p>
+                                          <p class="wb-fieldflow-label">Is there a qualifying foreign filing entity in respect of the MNE group?</p>
                                         </div>
                                         <ul>
-                                          <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer6&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes, ...</li>
-                                          <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer5&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">No, ...</li>
+                                          <li>Yes, there is a qualifying foreign filing entity in respect of the MNE group
+                                            <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
+                                              <div class="wb-fieldflow-header">
+                                                <p class="wb-fieldflow-label">Has the MNE group been notified that the CRA has not received the GIR
+                                                  <mark>on exchange</mark>
+                                                  ? (What does this mean?)</p>
+                                              </div>
+                                              <ul>
+                                                <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer6&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes, ...</li>
+                                                <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer5&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">No, ...</li>
+                                              </ul>
+                                            </div>
+                                          </li>
+                                          <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer6&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">No, there is <strong>no</strong> qualifying foreign filing entity in respect of the MNE group</li>
                                         </ul>
                                       </div>
                                     </li>
-                                    <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer6&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">No, there is <strong>no</strong> qualifying foreign filing entity in respect of the MNE group</li>
-                                  </ul>
-                                </div>
-                              </li>
-                              <li>No, a GIR notification will not be filed with CRA by a designated notification entity no or by each constituent entity located in Canada
-                                <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
-                                  <div class="wb-fieldflow-header">
-                                    <p class="wb-fieldflow-label">Does the MNE group have a ultimate parent entity or designated filing entity outside of Canada that filed the GIR directly with the CRA?</p>
-                                  </div>
-                                  <ul>
-                                    <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer4&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes, the MNE group has an ultimate parent entity or designated filing entity outside of Canada that filed the GIR directly with the CRA</li>
-                                    <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer3&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">No, the MNE group does <strong>not</strong> have an ultimate parent entity or designated filing entity outside of Canada that filed the GIR directly with the CRA</li>
+                                    <li>No, a GIR notification will not be filed with CRA by a designated notification entity no or by each constituent entity located in Canada
+                                      <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
+                                        <div class="wb-fieldflow-header">
+                                          <p class="wb-fieldflow-label">Does the MNE group have a ultimate parent entity or designated filing entity outside of Canada that filed the GIR directly with the CRA?</p>
+                                        </div>
+                                        <ul>
+                                          <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer4&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes, the MNE group has an ultimate parent entity or designated filing entity outside of Canada that filed the GIR directly with the CRA</li>
+                                          <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer3&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">No, the MNE group does <strong>not</strong> have an ultimate parent entity or designated filing entity outside of Canada that filed the GIR directly with the CRA</li>
+                                        </ul>
+                                      </div>
+                                    </li>
                                   </ul>
                                 </div>
                               </li>
@@ -230,74 +237,82 @@
                         </li>
                       </ul>
                     </div>
+                  </form>
+                </div>
+                <!--Start of FF answers-->
+                <div id="answers"> 
+                  <!--Answer1: DFE files -->
+                  <div id="answer1" class="alert alert-warning alert1 hidden">
+                    <p class="text-muted small">Based on your selections above:</p>
+                    <p>The appointed <strong>designated filing entity</strong> located in Canada must file the GIR with the CRA.</p>
+                  </div>
+                  <!--Answer2: UPE files -->
+                  <div id="answer2" class="alert alert-warning alert1 hidden">
+                    <p class="text-muted small">Based on your selections above:</p>
+                    <p>The <strong>ultimate parent entity</strong> located in Canada must file the GIR with the CRA.</p>
+                  </div>
+                  <!--Answer3: Each constituent files -->
+                  <div id="answer3" class="alert alert-warning alert1 hidden">
+                    <p class="text-muted small">Based on your selections above:</p>
+                    <p>Each <strong>constituent entity</strong> located in Canada or the appointed <strong>designated local entity</strong> must file the GIR with the CRA.</p>
+                  </div>
+                  <!--Answer4: No constituent in Canada files -->
+                  <div id="answer4" class="alert alert-info alert1 hidden">
+                    <p class="text-muted small">Based on your selections above:</p>
+                    <p>No constituent entity in Canada needs to file the GIR with the CRA, as it has been filed directly with CRA by the <strong>ultimate parent entity</strong> or <strong>designated filing entity</strong> outside of Canada.</p>
+                  </div>
+                  <!--Answer5: -->
+                  <div id="answer5" class="alert alert-info alert1 hidden">
+                    <p class="text-muted small">Based on your selections above:</p>
+                    <p>No constituent entity in Canada needs to file the GIR with CRA.</p>
+                  </div>
+                  <!--Answer6: -->
+                  <div id="answer6" class="alert alert-warning alert1 hidden">
+                    <p class="text-muted small">Based on your selections above:</p>
+                    <p>Each <strong>constituent entity</strong> located in Canada or <strong>appointed designated notification</strong> entity must file the GIR with the CRA.</p>
+                  </div>
+                  <!--End of FF answers--> 
+                </div>
+              </div>
+            </div>
+          </details>
+          <!-- Accordion section 2 -->
+          <details class="acc-group">
+            <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>View text version</summary>
+            <div class="tgl-panel">
+              <div class="pl-2">
+                <p class="mrgn-tp-sm mrgn-bttm-lg">Use this version if you do not want to answer <a href="#interactive" class="wb-tabs-ext">interactive questions</a>.</p>
+                <p><strong>One</strong> of the following constituent entities of a qualifying MNE group must file a GIR with the CRA:</p>
+                <ul>
+                  <li>The <strong>designated filing entity</strong> must file when there is one that is located in Canada</li>
+                  <li>The <strong>ultimate parent entity</strong> must file when the following conditions are <strong>all</strong> met:
+                    <ul>
+                      <li>The ultimate parent entity is located in Canada</li>
+                      <li>The MNE group does not have a designated filing entity located in Canada</li>
+                    </ul>
+                  </li>
+                  <li><strong>Each constituent</strong> entity located in Canada or a <strong>designated local entity</strong> must file when the following conditions are <strong>all</strong> met:
+                    <ul>
+                      <li>The MNE group does not have an ultimate parent entity or designated filing entity located in Canada</li>
+                      <li>The MNE group does not have an ultimate parent entity or designated filing entity outside Canada that filed the GIR directly with the CRA on or before the GIR due date</li>
+                      <li><strong>Either</strong> the MNE group does not have a qualifying foreign filing entity <strong>or</strong> it has a qualifying foreign filing entity, but the CRA notified the constituent entities located in Canada or the designated notification entity that it has not received a GIR from the qualifying foreign filing entity's jurisdiction</li>
+                    </ul>
                   </li>
                 </ul>
               </div>
-            </form>
-          </div>
-          <!--Start of FF answers-->
-          <div id="answers"> 
-            <!--Answer1: DFE files -->
-            <div id="answer1" class="alert alert-warning alert1 hidden">
-              <p class="text-muted small">Based on your selections above:</p>
-              <p>The appointed <strong>designated filing entity</strong> located in Canada must file the GIR with the CRA.</p>
             </div>
-            <!--Answer2: UPE files -->
-            <div id="answer2" class="alert alert-warning alert1 hidden">
-              <p class="text-muted small">Based on your selections above:</p>
-              <p>The <strong>ultimate parent entity</strong> located in Canada must file the GIR with the CRA.</p>
-            </div>
-            <!--Answer3: Each constituent files -->
-            <div id="answer3" class="alert alert-warning alert1 hidden">
-              <p class="text-muted small">Based on your selections above:</p>
-              <p>Each <strong>constituent entity</strong> located in Canada or the appointed <strong>designated local entity</strong> must file the GIR with the CRA.</p>
-            </div>
-            <!--Answer4: No constituent in Canada files -->
-            <div id="answer4" class="alert alert-info alert1 hidden">
-              <p class="text-muted small">Based on your selections above:</p>
-              <p>No constituent entity in Canada needs to file the GIR with the CRA, as it has been filed directly with CRA by the <strong>ultimate parent entity</strong> or <strong>designated filing entity</strong> outside of Canada.</p>
-            </div>
-            <!--Answer5: -->
-            <div id="answer5" class="alert alert-info alert1 hidden">
-              <p class="text-muted small">Based on your selections above:</p>
-              <p>No constituent entity in Canada needs to file the GIR with CRA.</p>
-            </div>
-            <!--Answer6: -->
-            <div id="answer6" class="alert alert-warning alert1 hidden">
-              <p class="text-muted small">Based on your selections above:</p>
-              <p>Each <strong>constituent entity</strong> located in Canada or <strong>appointed designated notification</strong> entity must file the GIR with the CRA.</p>
-            </div>
-            <!--End of FF answers--> 
-          </div>
+          </details>
         </div>
-      </div>
-    </details>
-    <!-- Accordion section 2 -->
-    <details class="acc-group">
-      <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>View text version</summary>
-      <div class="tgl-panel">
-        <div class="pl-2">
-          <p class="mrgn-tp-sm mrgn-bttm-lg">Use this version if you do not want to answer <a href="#interactive" class="wb-tabs-ext">interactive questions</a>.</p>
-          <p><strong>One</strong> of the following constituent entities of a qualifying MNE group must file a GIR with the CRA:</p>
-          <ul>
-            <li>The <strong>designated filing entity</strong> must file when there is one that is located in Canada</li>
-            <li>The <strong>ultimate parent entity</strong> must file when the following conditions are <strong>all</strong> met:
-              <ul>
-                <li>The ultimate parent entity is located in Canada</li>
-                <li>The MNE group does not have a designated filing entity located in Canada</li>
-              </ul>
-            </li>
-            <li><strong>Each constituent</strong> entity located in Canada or a <strong>designated local entity</strong> must file when the following conditions are <strong>all</strong> met:
-              <ul>
-                <li>The MNE group does not have an ultimate parent entity or designated filing entity located in Canada</li>
-                <li>The MNE group does not have an ultimate parent entity or designated filing entity outside Canada that filed the GIR directly with the CRA on or before the GIR due date</li>
-                <li><strong>Either</strong> the MNE group does not have a qualifying foreign filing entity <strong>or</strong> it has a qualifying foreign filing entity, but the CRA notified the constituent entities located in Canada or the designated notification entity that it has not received a GIR from the qualifying foreign filing entity's jurisdiction</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </details>
+      </details>
+      <details id="wh_gmtr">
+        <summary><span class="wb-inv">Who must file a </span>Global Minimum Tax Return</summary>
+        <p>Each person who is liable to pay tax under Part 2 or Part 3 of the Act, or each Canadian filing entity, must file a Global Minimum Tax Return with the CRA.</p>
+      </details>
+      <details id="wh_gr_ntfctn">
+        <summary><span class="wb-inv">Who must file a </span>GIR notification</summary>
+        <p>If a <a class="wb-lbx" role="button" aria-controls="qffe" href="#qffe">qualifying foreign filing <span class="nowrap">entity<span class="mrgn-lft-sm far fa-question-circle"></span></span></a> is filing the GIR for the MNE group with the tax authority of the jurisdiction where it is located, each constituent entity located in Canada, or a designated notification entity must file a GIR notification with the CRA.</p>
+      </details>
+    </div>
   </div>
   <h2 id="toc_1">Who can file on your behalf</h2>
   <p>A constituent entity or person may be appointed to file on behalf of all constituent entities or persons that must file with the CRA.</p>
