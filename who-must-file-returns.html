@@ -156,7 +156,7 @@
     <li>GIR Notification</li>
   </ul>
   <p>A constituent entity or person may be appointed to file on behalf of all constituent entities or persons that must file with the CRA.</p>
-  <h2 id="toc_0">Determine which returns to file</h2>
+  <h2 id="toc_0">Who must file a GIR or a GIR Notification</h2>
   <p>To determine which entities must file a GIR, a Global Minimum Tax Return or a GIR notification <strong>with the CRA</strong>, use the following interactive questions.</p>
   <div class="wb-tabs mrgn-tp-md">
     <div class="tabpanels">
@@ -209,24 +209,24 @@
                       </ul>
                     </div>
                   </li>
-                  <li>No, the MNE group will not be filing a GIR in a jurisdiction other than Canada
+                  <li>No, the MNE group will not be filing a GIR in a jurisdiction <strong>other than</strong> Canada
                     <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
                       <div class="wb-fieldflow-header">
-                        <p class="wb-fieldflow-label">Will the MNE group appoint a DFE located in Canada?</p>
+                        <p class="wb-fieldflow-label">Will the MNE group appoint a designated local entity located in Canada?</p>
                       </div>
                       <ul>
                         <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer5&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes to question here</li>
                         <li>No to question here
                           <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
                             <div class="wb-fieldflow-header">
-                              <p class="wb-fieldflow-label">Is the MNE group's UPE located in Canada?</p>
+                              <p class="wb-fieldflow-label">Is the MNE group's ultimate parent entity located in Canada?</p>
                             </div>
                             <ul>
                               <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer6&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes to question here</li>
                               <li>No to question here
                                 <div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true, &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.alert1&quot;, &quot;class&quot;: &quot;hidden&quot;}}">
                                   <div class="wb-fieldflow-header">
-                                    <p class="wb-fieldflow-label">Does the MNE group have a UPE or DFE outside of Canada that filed the GIR directly with the CRA?</p>
+                                    <p class="wb-fieldflow-label">Does the MNE group have a ultimate parent entity or designated local entity outside of Canada that filed the GIR directly with the CRA?</p>
                                   </div>
                                   <ul>
                                     <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#answer7&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Yes to question here</li>
@@ -246,25 +246,25 @@
           </div>
           <!--Start of FF answers-->
           <div id="answers"> 
-            <!--Answer 1: DFE files -->
+            <!--Answer 1:  -->
             <div id="answer1" class="alert alert-warning alert1 hidden">
               <p class="text-muted small">Based on your selections above:</p>
               <p>The appointed <strong>designated notification entity</strong> must have previously filed the <strong>GIR notification</strong> with the CRA.</p>
               <p>No constituent entity in Canada needs to file the <strong>GIR</strong> with the CRA.</p>
             </div>
-            <!--Answer 2: UPE files -->
+            <!--Answer 2:  -->
             <div id="answer2" class="alert alert-warning alert1 hidden">
               <p class="text-muted small">Based on your selections above:</p>
               <p>The appointed <strong>designated notification entity</strong> must have previously filed the <strong>GIR notification</strong> with the CRA.</p>
               <p>The appointed <strong>designated notification entity</strong> must also file the <strong>GIR</strong> with the CRA.</p>
             </div>
-            <!--Answer 3: Each constituent files -->
+            <!--Answer 3:  -->
             <div id="answer3" class="alert alert-warning alert1 hidden">
               <p class="text-muted small">Based on your selections above:</p>
               <p>Each <strong>constituent entity</strong> located in Canada must have previously filed the <strong>GIR notification</strong> with the CRA.</p>
               <p>No constituent entity in Canada needs to file the <strong>GIR</strong> with the CRA.</p>
             </div>
-            <!--Answer 4: No constituent in Canada files -->
+            <!--Answer 4:  -->
             <div id="answer4" class="alert alert-info alert1 hidden">
               <p class="text-muted small">Based on your selections above:</p>
               <p>Each <strong>constituent entity</strong> located in Canada must have previously filed the <strong>GIR notification</strong> with the CRA.</p>
@@ -345,28 +345,22 @@
       </details>
     </div>
   </div>
-  <details id="wh_gmtr"  class="gmtr rtn-grp">
-    <summary><span class="wb-inv">Who must file a </span>Global Minimum Tax Return</summary>
-    <p>Each person who is liable to pay tax under Part 2 or Part 3 of the Act, or each Canadian filing entity, must file a Global Minimum Tax Return with the CRA.</p>
-  </details>
-  <details id="wh_gr_ntfctn"  class="gir-nt rtn-grp">
+  <!--<details id="wh_gr_ntfctn"  class="gir-nt rtn-grp">
     <summary><span class="wb-inv">Who must file a </span>GIR notification</summary>
     <p>If a qualifying foreign filing entity is filing the GIR for the MNE group with the tax authority of the jurisdiction where it is located, each constituent entity located in Canada, or a designated notification entity must file a GIR notification with the CRA.</p>
     <div class="mrgn-lft-0" data-ajax-replace="#qffe-def"></div>
-  </details>
-  <h2 id="toc_2">Who can file each return on your behalf
-    <mark>[to be incorporated in the answers]</mark>
-  </h2>
-  <details id="bhlf_gmtr" class="gmtr rtn-grp">
-    <summary><span class="wb-inv">Who can file a </span>Global Minimum Tax Return<span class="wb-inv"> on your behalf</span></summary>
-    <p>If you are filing a Global Minimum Tax Return and more than one person
-      <mark>in respect of</mark>
-      your MNE group is required to file a GMTR for a fiscal year, one of those persons who is resident in Canada may be appointed as a<strong> Canadian filing entity</strong>.</p>
-  </details>
-  <details id="bhlf_gr_ntfctn"  class="gir-nt rtn-grp">
+  </details>-->
+  <h2 id="toc_2">Who must file a Global Minimum Tax Return</h2>
+  <p>Each person who is liable to pay tax under Part 2 or Part 3 of the Act, or each Canadian filing entity, must file a Global Minimum Tax Return with the CRA.</p>
+  <h3>Who can file a Global Minimum Tax Return on your behalf</h3>
+  <p>If you are filing a Global Minimum Tax Return and more than one person
+    <mark>in respect of</mark>
+    your MNE group is required to file a GMTR for a fiscal year, one of those persons who is resident in Canada may be appointed as a<strong> Canadian filing entity</strong>.</p>
+  
+  <!--<details id="bhlf_gr_ntfctn"  class="gir-nt rtn-grp">
     <summary><span class="wb-inv">Who can file a </span>GIR notification<span class="wb-inv"> on your behalf</span></summary>
     <p>If you are filing a GIR Notification and more than one constituent entity of a qualifying MNE group is required to notify the CRA for a fiscal year of a qualifying foreign filing entity, one of those constituent entities that are located in Canada may be appointed as a <strong>designated notification entity</strong>.</p>
-  </details>
+  </details>--> 
   
   <!-- main overlays -->
   <section id="iir" class="mfp-hide modal-dialog modal-content overlay-def">
