@@ -392,7 +392,7 @@
           </ul>
           <div class="mrgn-lft-0" data-ajax-replace="#dle-def"></div>
           <h3>When an MNE group is filing a GIR in a jusrisdiction other than Canada</h3>
-          <p>If a qualifying foreign filing entity (QFFE) is filing the GIR in the jurisdiction where it is located:</p>
+          <p>If a <a class="wb-lbx" title="qualifying foreign filing entity" href="#qffe-mdl" role="button" aria-controls="qffe-mdl">qualifying foreign filing entity <span class="nowrap">(QFFE)<span class="mrgn-lft-sm far fa-question-circle"></span></span></a> is filing the GIR in the jurisdiction where it is located:</p>
           <ul>
             <li>No constituent entity
               <mark>located</mark>
@@ -401,7 +401,6 @@
               <mark>located</mark>
               in Canada must file a GIR notification</li>
           </ul>
-          <div class="mrgn-lft-0" data-ajax-replace="#qffe-def"></div>
           <div class="mrgn-lft-0" data-ajax-replace="#dne-def"></div>
           <p class="mrgn-tp-lg">However, if the QFFE has <strong>not</strong> successfully filed the GIR in the jurisdiction where it is located:</p>
           <ul>
@@ -454,22 +453,12 @@
       </div>
     </div>
   </section>
-  <section id="lw-tx" class="mfp-hide modal-dialog modal-content overlay-def">
+  <section id="qffe-mdl" class="mfp-hide modal-dialog modal-content overlay-def">
     <header class="modal-header">
-      <h2 class="modal-title">Low-tax entity</h2>
+      <h2 class="modal-title">Qualifying foreign filing entity (QFFE)</h2>
     </header>
-    <div class="modal-body well brdr-rds-0"><span class="fa-lg fa-stack pull-right text-muted"><span class="far fa-circle fa-stack-2x"></span><span class="fas fa-balance-scale fa-stack-1x"></span></span>
-      <p>A low-tax entity means a constituent entity of an MNE group that is located in either of:</p>
-      <ul class="lst-none lst-spcd">
-        <li>(a) a low-tax jurisdiction</li>
-        <li>(b) a jurisdiction that would be a low-tax jurisdiction, if the effective tax rate of the MNE group for the jurisdiction
-          were determined without regard to any income or expense recorded by an entity
-          <mark>in respect of</mark>
-          an intragroup financing arrangement. <br>
-          <br>
-          <mark>(entité à faible imposition)</mark>
-        </li>
-      </ul>
+    <div class="modal-body">
+      <div data-ajax-replace="#qffe-cntnt"></div>
     </div>
   </section>
   <!-- Definition ex-hides section -->
@@ -510,7 +499,9 @@
     <div id="qffe-def">
       <details>
         <summary>What is a qualifying foreign filing entity (QFFE)</summary>
-        <p>A qualifying foreign filing entity (QFFE) is an ultimate parent entity or a designated filing entity of the MNE group that is located in a foreign jurisdiction and that is obligated to file a GloBE Information Return with the tax authority of the foreign jurisdiction, provided that the foreign jurisdiction has a qualifying competent authority agreement that is in effect on or before the GloBE Information Return exchange date for the fiscal year. Canada must be a party to that agreement for the entity to be a QFFE.</p>
+        <div id="qffe-cntnt">
+          <p>A qualifying foreign filing entity (QFFE) is an ultimate parent entity or a designated filing entity of the MNE group that is located in a foreign jurisdiction and that is obligated to file a GloBE Information Return with the tax authority of the foreign jurisdiction, provided that the foreign jurisdiction has a qualifying competent authority agreement that is in effect on or before the GloBE Information Return exchange date for the fiscal year. Canada must be a party to that agreement for the entity to be a QFFE.</p>
+        </div>
       </details>
     </div>
   </section>
